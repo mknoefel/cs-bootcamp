@@ -24,8 +24,7 @@ operation:
 
 
     outputs:
-      - output_1
+      - uuid: ${uuid}
 
     results:
-      - SUCCESS: ${returnCode == '0'}
-      - FAILURE
+      - SUCCESS
